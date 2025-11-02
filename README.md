@@ -1,27 +1,33 @@
 # Crime Visibility Index
 
-The Criminal Visibility Index (CVI) rank the suitability of any possible camera location using bi dimensional data. The CVI is used to identify the top $n$ locations that, based on their spatial configuration and criminal incidence, would require surveillance cameras.
+Índice de Visibilidad Criminal (IVC)
 
-The Criminal Detection Sensitivity Map
+El Índice de Visibilidad Criminal (CVI) clasifica la idoneidad de cualquier posible ubicación de cámara utilizando datos bidimensionales.
+El IVC se emplea para identificar las n ubicaciones principales que, con base en su configuración espacial y la incidencia delictiva, requerirían cámaras de vigilancia.
 
-It depends on the following three spatial variables:
-The closeness to the camera position described by a Gaussian kernel (K)
-The crime density as a result of applying a Gaussian kernel to the raster image of geo-referenced crimes (D).
-The visible range of each camera described by its isovist, which is a binary map (V).`
+Mapa de Sensibilidad de Detección Criminal
+
+Depende de las siguientes tres variables espaciales:
+
+La cercanía a la posición de la cámara, descrita mediante un kernel Gaussiano (K).
+
+La densidad delictiva (D), obtenida al aplicar un kernel Gaussiano a la imagen ráster de delitos georreferenciados.
+
+El rango visible de cada cámara, descrito por su isovista (V), que es un mapa binario.
 
 ![cvi_example](https://github.com/rdglpz/posicionamiento_camaras_vigilancia/blob/main/imgs/CVI_example.png?raw=true)
 
-The rank of each camera is the sum of the values of $R$ image.
+La calificación de cada cámara se obtiene como la suma de los valores de la imagen R.
 
-The Criminal Visibility index describes the theoretical capacity of observing crimes of a surveillance camera network.
+El Índice de Visibilidad Criminal describe la capacidad teórica de observación de delitos de una red de cámaras de vigilancia.
 
-The documentation of the collection of functions that calculates the CVI of each georeferenced point is in this repostiroy inside `src` folder: ```/src/camera_allocation_functions.py```
+La documentación de la colección de funciones que calculan el CVI para cada punto georreferenciado se encuentra en este repositorio dentro de la carpeta:
+```/src/camera_allocation_functions.py```
 
-Example of the implementation and optimization of the surveillance camera networks is in the notebook `notebooks/optimize_camera_allocation.ipynb`
+El ejemplo de implementación y optimización de la red de cámaras de vigilancia está en el cuaderno:
+notebooks/optimize_camera_allocation.ipynb
 
-Te maps generated are the near optimal surveillance camera network considering crimes in 2018 in the Aguascalientes center.
-
-
+Los mapas generados representan la red de cámaras de vigilancia cuasi-óptima, considerando los delitos ocurridos en 2018 en el centro de Aguascalientes.
 
 ![](https://github.com/rdglpz/posicionamiento_camaras_vigilancia/blob/main/imgs/output_example.png?raw=true)
 
