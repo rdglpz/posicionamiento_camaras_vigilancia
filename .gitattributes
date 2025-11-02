@@ -1,8 +1,3 @@
-data/processed/aguascalientes/* filter=lfs diff=lfs merge=lfs -text
-data/processed/aguascalientes/fitness_positions_vc_area.csv filter=lfs diff=lfs merge=lfs -text
-data/processed/aguascalientes/delitos_ags_2018_raster_bin filter=lfs diff=lfs merge=lfs -text
-data/processed/aguascalientes/00_clossenes_to_streets_normalized_ags filter=lfs diff=lfs merge=lfs -text
-data/processed/aguascalientes/01_densidad_delitos_sobre_calle_1998 filter=lfs diff=lfs merge=lfs -text
-data/processed/aguascalientes/02_manzanas_raster_binary filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 data/processed/aguascalientes/** filter=lfs diff=lfs merge=lfs -text
+
