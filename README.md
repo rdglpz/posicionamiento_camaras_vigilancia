@@ -21,8 +21,8 @@ La calificación de cada cámara se obtiene como la suma de los valores de la im
 
 El Índice de Visibilidad Criminal describe la capacidad teórica de observación de delitos de una red de cámaras de vigilancia.
 
-La documentación de la colección de funciones que calculan el CVI para cada punto georreferenciado se encuentra en este repositorio dentro de la carpeta:
-```/src/camera_allocation_functions.py```
+La documentación de la colección de funciones propias que calculan el CVI para cada punto georreferenciado se encuentra en este repositorio dentro de la carpeta:
+[src/camera_allocation_functions.py](https://github.com/rdglpz/posicionamiento_camaras_vigilancia/blob/main/src/camera_allocation_functions.py).
 
 El ejemplo de implementación y optimización de la red de cámaras de vigilancia está en el cuaderno:
 notebooks/optimize_camera_allocation.ipynb
