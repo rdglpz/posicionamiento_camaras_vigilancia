@@ -15,11 +15,17 @@ The rank of each camera is the sum of the values of $R$ image.
 
 The Criminal Visibility index describes the theoretical capacity of observing crimes of a surveillance camera network.
 
-The documentation of the collection of functions that calculates the CVI of each georeferenced point is in this repostiroy inside `src` folder:
-
-Link: ```https://github.com/rdglpz/posicionamiento_camaras_vigilancia/blob/main/src/camera_allocation_functions.py```
+The documentation of the collection of functions that calculates the CVI of each georeferenced point is in this repostiroy inside `src` folder: ```/src/camera_allocation_functions.py```
 
 Example of the implementation and optimization of the surveillance camera networks is in the notebook `notebooks/optimize_camera_allocation.ipynb`
+
+Te maps generated are the near optimal surveillance camera network considering crimes in 2018 in the Aguascalientes center.
+
+
+
+![](https://github.com/rdglpz/posicionamiento_camaras_vigilancia/blob/main/imgs/output_example.png?raw=true)
+
+
 
 References:
 
