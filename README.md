@@ -9,7 +9,7 @@ The closeness to the camera position described by a Gaussian kernel (K)
 The crime density as a result of applying a Gaussian kernel to the raster image of geo-referenced crimes (D).
 The visible range of each camera described by its isovist, which is a binary map (V).`
 
-![cvi_example](imgs/cvi_example.png)
+![cvi_example](https://github.com/rdglpz/posicionamiento_camaras_vigilancia/blob/main/imgs/CVI_example.png?raw=true)
 
 The rank of each camera is the sum of the values of $R$ image.
 
