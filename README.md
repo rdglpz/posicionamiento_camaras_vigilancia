@@ -1,6 +1,6 @@
 # Crime Visibility Index
 
-Índice de Visibilidad Criminal (IVC)
+Índice de Visibilidad Criminal (Criem Visibility Index CVI)
 
 El Índice de Visibilidad Criminal (CVI) clasifica la idoneidad de cualquier posible ubicación de cámara utilizando datos bidimensionales.
 El IVC se emplea para identificar las n ubicaciones principales que, con base en su configuración espacial y la incidencia delictiva, requerirían cámaras de vigilancia.
@@ -33,7 +33,7 @@ Los mapas generados representan la red de cámaras de vigilancia cuasi-óptima, 
 
 
 
-References:
+Referenncias:
 
 Tapia-McClung, R., & Lopez-Farías, R. (2024). An Approach for Spatial Optimization on Positioning Surveillance Cameras. In O. Gervasi, B. Murgante, C. Garau, D. Taniar, A. M. A. C. Rocha, & M. N. Faginas Lago (Eds.), Computational Science and Its Applications – ICCSA 2024 Workshops (Lecture Notes in Computer Science, Vol. 14819, pp. 366-380). Springer, Cham. https://dl.acm.org/doi/abs/10.1007/978-3-031-65282-0_24
 
